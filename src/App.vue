@@ -162,7 +162,6 @@ const solve = Q => {
     } else if (allZero && dst[j] === 0) {
       //no unique
       unique.value = false
-      break
     }
   }
 
